@@ -1,0 +1,53 @@
+/* contact.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.hero {
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    height: 300px; /* Adjust height as necessary */
+}
+
+.contact-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.contact-info h3 {
+    color: #007BFF; /* Change color as desired */
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.branch-info {
+    padding: 20px;
+    background-color: #f5f5f5; /* Background for branch info */
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

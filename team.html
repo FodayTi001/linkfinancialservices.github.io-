@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Link Financial Services — Team Profiles</title>
+  <meta name="description" content="Link Financial Services provides secure digital payments, mobile banking, savings, loans, and agent banking solutions.">
+  <!-- main site stylesheet (keeps global styles) -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- team-specific styles -->
+  <link rel="stylesheet" href="team.css">
+  <style>
+    /* Modal Styles */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1000; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scrolling if needed */
+        background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
+    }
+
+    .modal-content {
+        background-color: #fefefe; /* Modal background */
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+        max-height: 80vh; /* Prevent modal from being too tall */
+        overflow-y: hidden; /* Hide vertical overflow initially */
+    }
+
+    .profile-details {
+        max-height: 300px; /* Limit the height */
+        overflow-y: auto; /* Enable vertical scrolling */
+        padding: 10px; /* Add some padding for better readability */
+        border: 1px solid #ddd; /* Optional: Add a border for separation */
+        background-color: #fff; /* Optional: Set background color */
+    }
+
+    .modal-close {
+        float: right; 
+        font-size: 28px; 
+        font-weight: bold; 
+    }
+
+    .modal-content h2, .modal-content h4 {
+        margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- SITE NAV / HEADER -->
+  <header>
+    <div class="container">
+      <h1>Link Financial Services</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="download.html">Loan Form</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a class="active" href="team.html">Our Team Profiles</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- FILTER BUTTONS -->
+  <div class="filter-controls">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="management">Management</button>
+    <button class="filter-btn" data-filter="admin">Admin</button>
+    <button class="filter-btn" data-filter="loan">Loan Officers</button>
+    <button class="filter-btn" data-filter="it">IT Officers</button>
+  </div>
+
+  <!-- PAGE HERO / TITLE -->
+  <section class="page-hero team-hero">
+    <div class="container">
+      <h2>Core Management & Staff</h2>
+      <p>Meet the people powering Link Financial Services — experienced, driven and customer-focused.</p>
+    </div>
+  </section>
+
+  <!-- TEAM LIST -->
+  <main class="team-wrap container" id="teamWrap">
+    <!-- SINGLE TEAM CARD (CEO) -->
+    <div class="team-card management">
+      <figure class="thumb">
+        <img src="ceo.jpg" alt="Gibril Ibrahim Kamara">
+      </figure>
+      <div class="meta">
+        <h3 class="name">GIBRIL IBRAHIM KAMARA ESQ</h3>
+        <p class="role">Chief Executive Officer</p>
+        <div class="actions">
+          <button class="view-btn" aria-expanded="false">View Profile</button>
+        </div>
+        <div class="profile-details" aria-hidden="true">
+          <p><strong>Founder and Chief Executive Officer</strong> — Link Financial Services (SL) Limited.</p>
+          <p>BSc, MSc, LLB, BL in Accounting & Finance; Diploma in Project Management; awaiting ACCA. Barrister & Solicitor of High Court of Sierra Leone.</p>
+          <p>A visionary leader with expertise in financial & management accounting, auditing, risk & performance management and taxation.</p>
+          <ul><br>
+            <li>Financial & management accounting</li>
+            <li>Auditing & risk management</li>
+            <li>Business strategy & performance</li>
+          </ul> <br>
+          <p>
+            <strong>Profile</strong><br>
+            A visionary and results-oriented leader, Gibril Ibrahim Kamara brings a wealth of expertise in financial and management accounting, business strategy, 
+            auditing and risk management, performance management, and taxation to his role as Founder and Chief Executive Officer of Link Financial Services Sierra Leone Limited.
+            Driven by his extensive experience in finance, coupled with his deep understanding of the local landscape, he is committed to building a platform that fosters true financial inclusion. 
+            This means more than just access; it means empowering individuals and businesses with the knowledge, tools, and opportunities to manage their finances effectively, build wealth,
+            and participate fully in the digital economy.
+            With considerable experience cultivated over the years in professional services, Gibril possesses a keen eye for detail, unwavering diligence, and a deep understanding of the importance
+            of time management and meeting critical deadlines. His collaborative spirit and flexibility make him an invaluable team player, consistently demonstrating a proactive approach and a passion
+            for achieving excellence. He thrives on challenges and is driven by a continuous desire to learn and adapt within dynamic organizational environments.
+            Prior to founding Link Financial Services Sierra Leone Limited, Gibril founded and served as the Chief Executive Officer at GIS Construction Estates and Logistics Co Ltd from May 2014 till date.
+            During this period, he has gained tremendous experience in finance, logistics, and transportation across diverse organizational structures, consistently earning excellent performance ratings.
+            His professional journey includes significant roles such as Finance Officer at CART/SL (May 2012 to 2014) and Banking Officer – Credit Administration (SME Unit) at Union Trust Bank Ltd (February 2009 to May 2012),
+            demonstrating a strong foundation in financial operations and risk assessment. Earlier in his career, he also served as Transport Officer at Safecon (SL) Ltd (October 2008 to January 2009).
+            Beyond his executive roles, Gibril is a dedicated entrepreneur and community leader. He is the Founder and Chairman of the Foundation for Gender and Development Initiative Sierra Leone (FGDI/SL), 
+            showcasing his initiative and commitment to making a positive impact.
+
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Executive Officer -->
+    <div class="team-card management">
+      <figure class="thumb">
+        <img src="madam.jpg" alt="Mrs Isata Kamara">
+      </figure>
+      <div class="meta">
+        <h3 class="name">MRS. ISATA KAMARA-NEE TURAY</h3>
+        <p class="role">Executive Officer</p>
+        <div class="actions">
+          <button class="view-btn" aria-expanded="false">View Profile</button>
+        </div>
+        <div class="profile-details" aria-hidden="true">
+          <p>BSc in Public Sector Management. Founder of Khalil Jula Enterprise. Former Finance Manager at FGDI/SL.</p>
+          <p>Leads strategy and operations at LFS with focus on inclusion, partnerships and operational excellence.</p>
+          <br>
+          <strong>Profile</strong><br>
+          Mrs. Isata Kamara -Nee Turay is a dynamic and results-oriented leader serving as the Executive Officer of Link Financial Services (SL) Limited.
+          She is also the founder and owner of Khalil Jula Enterprise. With a passion for driving financial inclusion and empowering communities in Sierra Leone,
+          Madam Kamara plays a pivotal role in shaping the strategic direction and operational excellence of the organization. Madam Kamara brings a wealth of experience in financial management,
+          business administration, and microfinance. Her strategic planning, team leadership, and stakeholder engagement have been crucial in navigating the evolving financial landscape in Sierra Leone 
+          and in forging strong partnerships with key stakeholders, including government agencies and other financial institutions.
+          Prior to her current role, Mrs. Kamara gained valuable experience as a Finance Manager for the Foundation for Gender and Development Initiative Sierra Leone (FGDI/SL),
+          where she was responsible for managing the financial operations and ensuring the fiscal health of the organization, contributing to their mission of promoting gender equality and development initiatives.
+          In 2024, she further broadened her international experience by working as a Sales Advisor for Superdrug Store in the United Kingdom, developing her customer service and business acumen in a global retail environment.
+          Since joining Link Financial Services, Madam Isata Kamara has been instrumental in fostering a culture of innovation and efficiency within the management team. She is deeply committed to the company's mission of providing
+          easy access to finance for all Sierra Leoneans, particularly those in underserved rural areas. Her leadership is characterized by a strong focus on integrity, transparency, and customer satisfaction – core values that underpin the operations of LFS.
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Senior Administrative Officer -->
+    <div class="team-card admin">
+      <figure class="thumb">
+        <img src="cecelia.jpg" alt="Cecilia Mbatuma Scott">
+      </figure>
+      <div class="meta">
+        <h3 class="name">MS. CECILIA MBATUMA SCOTT</h3>
+        <p class="role">Senior Administrative Officer</p>
+        <div class="actions">
+          <button class="view-btn" aria-expanded="false">View Profile</button>
+        </div>
+        <div class="profile-details" aria-hidden="true">
+          <p>BA Hons Mass Communication. Skilled in administration, PR and development work; drives organizational efficiency and communication at LFS.</p>
+        <br>
+        <strong>Profile</strong><br>
+        Cecilia Mbatuma Scott, the Senior Administrative Officer at Link Financial Services (SL) Limited, is a highly organized and dedicated professional whose diverse background directly contributes to the company's
+         vision of digital financial inclusion in Sierra Leone. Her foundation as a Mass Communication graduate, coupled with experience in public relations, administration, and development across various sectors including
+          roles at GIS Construction and the Evangelical Lutheran Church of The Gambia, provides her with a comprehensive skillset in communication and organizational management.
+        At Link Financial Services, Cecilia's meticulous administrative capabilities are instrumental in building the efficient operational framework necessary to achieve the company's strategic goals. By streamlining internal
+         processes and providing crucial support to the management team, she ensures the smooth day-to-day functioning that underpins the expansion of accessible financial services, particularly to underserved communities. 
+         Her commitment to effective organization directly facilitates LFS's ability to realize its vision of a digitally empowered and financially inclusive Sierra Leone.
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Finance Manager -->
+    <div class="team-card management">
+      <figure class="thumb">
+        <img src="manager.jpg" alt="Alieu Abdulia Kamara">
+      </figure>
+      <div class="meta">
+        <h3 class="name">MR. ALIEU ABDULIA KAMARA</h3>
+        <p class="role">Finance Manager</p>
+        <div class="actions">
+          <button class="view-btn" aria-expanded="false">View Profile</button>
+        </div>
+        <div class="profile-details" aria-hidden="true">
+          <p>BSc in Accounting & Finance. Responsible for financial reporting, controls and budgeting at LFS.</p>
+          <br>
+          <strong>Profile</strong><br>
+          Mr. Alieu Kamara, the Finance Manager at Link Financial Services (SL) Limited, anchors the company's financial operations with a robust foundation built upon his BSc.
+           in Accounting and Finance (2019) and extensive practical experience. His concurrent roles as an Accountant at the Ministry of Social Welfare Gender and Children Affairs since 2019,
+            involving meticulous management of financial documentation and processes, alongside his tenure as Account Manager at GIS Constructions, Estate and Logistics since 2020, 
+            showcase a consistent dedication to financial integrity and efficiency across diverse sectors. This well-rounded experience positions him as a key asset in ensuring the fiscal health and responsible growth of LFS.
+          Mr. Kamara's commitment to accuracy and transparency, cultivated through his educational background and professional journey, directly supports Link Financial Services' vision of creating a trustworthy and accessible digital financial ecosystem.
+           By diligently overseeing financial resources and providing clear, reliable reporting, he fosters the stability necessary for LFS to expand its services and positively impact the lives of its clientele, particularly those in underserved areas.
+            His ethical approach to financial management ensures the long-term sustainability of the institution, enabling it to effectively pursue its aims and objectives of widespread financial inclusion and empowerment throughout Sierra Leone.
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Senior Loan Officer -->
+    <div class="team-card loan">
+      <figure class="thumb">
+        <img src="zainab.jpg" alt="Zainab Mansaray">
+      </figure>
+      <div class="meta">
+        <h3 class="name">MS. ZAINAB MANSARAY</h3>
+        <p class="role">Senior Loan Officer</p>
+        <div class="actions">
+          <button class="view-btn" aria-expanded="false">View Profile</button>
+        </div>
+        <div class="profile-details" aria-hidden="true">
+          <p>BSc in Financial Services. Senior Loan Officer; focuses on outreach and loan processing.</p>
+          <br>
+          <strong>Profile</strong><br>
+          Ms. Zainab Mansaray is a dedicated and driven Senior Loan Officer at Link Financial Services (SL) Limited, demonstrating a strong commitment to the company's mission of providing accessible finance for all in Sierra Leone.
+           Graduating with a BSc in Financial Services in 2021, Ms. Mansaray immediately joined LFS as a Loan Officer, showcasing her early dedication and aptitude in the field. Her consistent hard work and understanding of the institution's
+            values propelled her to the position of Senior Loan Officer in 2025, highlighting her growth and contribution within the organization.
+          Having been with Link Financial Services since the start of her professional career, Ms. Mansaray possesses an in-depth understanding of the company's loan products and its clientele, particularly in reaching underserved communities.
+           Her direct experience in assisting individuals and small businesses gain access to crucial financial resources fuels her work ethic, likely characterized by empathy, diligence, and a strong sense of responsibility towards the financial 
+           well-being of LFS's diverse clientele. This personal commitment to facilitating financial access directly aligns with the company's vision of creating a digital financial ecosystem that positively impacts the lives of individuals across Sierra Leone.
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Loan Officer: Ramatu Bayoh -->
+    <div class="team-card loan">
+      <figure class="thumb">
+        <img src="ramatu.jpg" alt="Ramatu Bayoh">
+      </figure>
+      <div class="meta">
+        <h3 class="name">MS. RAMATU BAYOH</h3>
+        <p class="role">Loan Officer</p>
+        <div class="actions">
+          <button class="view-btn" aria-expanded="false">View Profile</button>
+        </div>
+        <div class="profile-details" aria-hidden="true">
+          <p>BSc in Population & Development Studies. Experienced in data management and supports loan processing.</p>
+          <br>
+          <strong>Profile</strong><br>
+          Ms. Ramatu Bayoh is a dedicated and adaptable development professional currently serving as a Loan Officer at Link Financial Services (SL) Limited. Holding a Bachelor of Science degree in Population and Development Studies from Fourah Bay College, University of Sierra Leone, 
+          Ramatu possesses a robust academic foundation that underpins her practical expertise. Her comprehensive background includes valuable experience in data management, loan processing, and civic registration, honed through significant roles at national institutions such as the
+           National Civil Registration Authority (NCRA), National Electoral Commission (NEC), and Statistics Sierra Leone. This diverse experience has equipped her with meticulous attention to detail and a strong understanding of data-driven processes crucial for efficient financial operations.
+          As a Loan Officer at LFS, Ms. Ramatu Bayoh leverages her solid foundation in Microsoft Office applications and excellent communication and organizational skills to directly facilitate access to financial resources for underserved communities. Her expertise in loan processing and client engagement is vital to Link Financial Services' 
+          goal of providing easy access to finance and creating a digital financial ecosystem. Ms. Bayoh is known for her professionalism, commitment to continuous learning, and ability to work effectively under minimal supervision, consistently delivering results that positively impact the lives of LFS's diverse clientele.
+           Her dedication ensures that the loan application and disbursement process is smooth and responsive to client needs, directly contributing to the economic empowerment of individuals and small businesses across Sierra Leone.   
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Loan Officer: Ramatu Kabia -->
+    <div class="team-card loan">
+      <figure class="thumb">
+        <img src="ram.jpg" alt="Ramatu Kabia">
+      </figure>
+      <div class="meta">
+        <h3 class="name">MS. RAMATU KABIA</h3>
+        <p class="role">Loan Officer</p>
+        <div class="actions">
+          <button class="view-btn" aria-expanded="false">View Profile</button>
+        </div>
+        <div class="profile-details" aria-hidden="true">
+          <p>BSc in Accounting. Fast-learning loan officer experienced with remittance flows.</p>
+          <br>
+         <strong>Profile</strong><br> 
+          Ramatu Kabia is a diligent and highly organized Loan Officer at Link Financial Services (SL) Limited, bringing fresh enthusiasm and a strong foundation in finance to her role.
+           With a Bachelor's Degree in Accounting from the Institute of Public Administration and Management (IPAM), Ramatu's academic journey provided her with the essential theoretical knowledge to excel in the financial sector. 
+           Though LFS marks her first professional experience, she has rapidly assimilated the complexities of loan officer duties, demonstrating exceptional learning agility and a remarkable ability to apply new knowledge effectively.
+          Known for her speed and accuracy in executing tasks and her proactive approach to contributing ideas, Ramatu is a highly productive and professional member of the LFS team.
+           Her passion for her work is evident in her commitment to continuous learning and efficiency. Through her direct engagement with clients, she has quickly gained expertise in crucial areas such as loan processing, client assessment,
+            and direct customer service, all vital to LFS's mission of providing easy access to finance. Additionally, Ramatu has developed valuable practical experience in AFRI-MONEY transactions, further enhancing LFS's digital financial inclusion efforts. 
+            Her dedication ensures that our clients receive prompt and precise service, directly supporting the company's vision of empowering underserved communities within Sierra Leone's evolving digital financial ecosystem.
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Loan Officer: Mariama Sillah -->
+    <div class="team-card loan">
+      <figure class="thumb">
+        <img src="mariama.jpg" alt="Mariama Sillah">
+      </figure>
+      <div class="meta">
+        <h3 class="name">MS. MARIAMA SILLAH</h3>
+        <p class="role">Loan Officer / Cashier</p>
+        <div class="actions">
+          <button class="view-btn" aria-expanded="false">View Profile</button>
+        </div>
+        <div class="profile-details" aria-hidden="true">
+          <p>BSc in Financial Services. Manages Orange Money and digital transaction operations.</p>
+          <br>
+         <strong>Profile</strong> <br>
+        Mariama Sillah is a skilled and versatile professional serving as a Loan Officer/Cashier at Link Financial Services (SL) Limited, bringing a robust blend of financial knowledge and practical digital transaction expertise to the team. She holds a B.Sc. in Financial Services
+         and further enhanced her capabilities with a Certificate in Computer Software, graduating in 2022. This strong academic foundation is complemented by two years of valuable experience as a Cashier at Nyama Enterprises, where she meticulously managed all digital transactions 
+         and monthly digital transaction reports, alongside payroll processing. This foundational experience honed her precision in financial recording and digital operations.
+        At LFS, Mariama is instrumental in managing the Orange Money and money transfer unit, overseeing a portfolio of Le 50,000. Her proven ability to handle digital transactions with accuracy and efficiency directly supports LFS's mission to create a seamless digital financial ecosystem
+         for financial inclusion. She is adept at facilitating essential services like digital money transfers and providing critical support in loan processing, ensuring that clients, particularly those in underserved communities, have easy and reliable access to financial resources.
+          Mariama's dedication to operational excellence is vital to LFS's commitment to empowering individuals and small businesses through accessible and innovative financial solutions.
+
+        </div>
+      </div>
+    </div>
+
+    <!-- IT Officer: Foday Marrah -->
+    <div class="team-card it">
+      <figure class="thumb">
+        <img src="marrah.jpg" alt="Foday Marrah">
+      </figure>
+      <div class="meta">
+        <h3 class="name">MR. FODAY MARRAH</h3>
+        <p class="role">Information Technology Officer</p>
+        <div class="actions">
+          <button class="view-btn" aria-expanded="false">View Profile</button>
+        </div>
+        <div class="profile-details" aria-hidden="true">
+          <p>BSc in Computer Science, Higher Diploma in Computer Science, Diploma in Computer Application Packages, Certificate in Software Packages.</p>
+          <br>
+        <strong>Profile</strong> <br>
+      Mr. Foday Marrah is a dedicated and self-motivated IT professional serving as an IT Officer at Link Financial Services (SL) Limited. With over four years of diverse experience spanning internet services, desktop publishing, data operations, and digital marketing, 
+      Foday consistently demonstrates robust technical and leadership capabilities. His career includes impactful roles managing internet café operations and providing crucial IT support to national institutions such as the Electoral Commission of Sierra Leone (ECSL), Statistics Sierra Leone,
+       and the National Civil Registration Authority (NCRA). Foday's expertise covers IT infrastructure management, customer service, data entry, and broader public service support, making him a versatile and invaluable asset to the LFS team. Known for his problem-solving mindset and ability
+        to perform effectively under pressure He is contributing in creating a digital infrastructure and supporting the stability and efficiency of critical systems like the Link Pay mobile application enhancing a robust digital financial ecosystem in Sierra Leone. 
+
+        </div>
+      </div>
+    </div>
+
+    <!-- IT Officer: Isaac Kamara -->
+    <div class="team-card it">
+      <figure class="thumb">
+        <img src="isaac.jpg" alt="Isaac Kamara">
+      </figure>
+      <div class="meta">
+        <h3 class="name">MR. ISAAC KAMARA</h3>
+        <p class="role">Information Technology Officer</p>
+        <div class="actions">
+          <button class="view-btn" aria-expanded="false">View Profile</button>
+        </div>
+        <div class="profile-details" aria-hidden="true">
+          <p>BSc in Networking and Telecommunications, Higher Diploma in Port and Shipping Administration, Diploma in Port and Shipping Administration </p>
+          <br>
+          <strong>Profile</strong> <br>
+          Mr. Isaac Kamara is a skilled and dedicated IT Officer at Link Financial Services (SL) Limited, bringing a robust academic background in networking and telecommunications to the organization. His foundational knowledge, honed through a Degree in Networking and Telecommunications, 
+          combined with a Higher National Diploma and Diploma in Port and Shipping Administration (Marine Time), provides him with a unique blend of technical expertise and logistical understanding crucial for modern financial services. Isaac's previous experience with ITV Company in Sierra Leone 
+          further equipped him with valuable practical IT skills, preparing him to contribute effectively to LFS's operational goals. At Link Financial Services, Isaac applies his comprehensive understanding of IT infrastructure and network management to ensure the seamless and secure operation of the company's 
+          digital financial services. His expertise is directly relevant to LFS's goal of creating a digital financial ecosystem, supporting the stability and efficiency of critical systems like the Link Pay mobile application. By contributing to the reliability of our digital platforms, Isaac plays a vital role 
+          in enhancing digital financial inclusion and ensuring our clientele, especially in underserved areas, can access services with ease and confidence.
+        </div>
+      </div>
+    </div>
+    
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Link Financial Services. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- GLOBAL MODAL POPUP -->
+  <div id="profile-modal" class="modal">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <img id="modal-image" src="" alt="Profile Photo">
+      <h2 id="modal-name"></h2>
+      <h4 id="modal-role"></h4>
+      <div class="profile-details" id="modal-description" aria-hidden="true"></div>
+      <div class="social-icons">
+        <a href="#" class="icon fb"></a>
+        <a href="#" class="icon in"></a>
+        <a href="#" class="icon mail"></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- team scripts -->
+  <script src="team.js"></script>
+</body>
+</html>

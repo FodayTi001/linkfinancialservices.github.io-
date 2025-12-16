@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Link Financial Services</title>
+    <meta name="description" content="Link Financial Services provides secure digital payments, mobile banking, savings, loans, and agent banking solutions.">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* ADDITIONAL CSS FOR SCROLLING BAR */
+        .accordion-content {
+            max-height: 300px;  /* Set maximum height for scrolling */
+            overflow-y: auto;   /* Enable vertical scrolling */
+            transition: max-height 0.3s ease;  /* Smooth transition */
+            padding: 10px;
+            background: #fff;  /* White background for content */
+            border: 1px solid #ccc;  /* Border for visibility */
+            border-radius: 5px; /* Rounded edges */
+        }
+
+        /* Hide by default */
+        .accordion-content.hidden {
+            max-height: 0; 
+            padding: 0;  /* Collapse padding */
+            overflow: hidden;  /* Hide overflow */
+        }
+
+        /* Accordion styles */
+        .accordion-header {
+            cursor: pointer;
+            background: #e2e2e2;  /* Light background for header */
+            padding: 10px;
+            margin-top: 5px;   /* Space between accordion items */
+            border-radius: 5px; /* Rounded edges */
+            border: 1px solid #ccc;  /* Border for visibility */
+        }
+
+        /* Responsive CSS */
+        @media (max-width: 880px) {
+            .about-wrapper {
+                max-height: 400px; /* Adjust height for smaller devices */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="container">
+        <h1>Link Financial Services</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="about.html">About Us</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="download.html">Loan Form</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="team.html">Our Team Profiles</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" style="background-image: url('about.png.png');">
+    <div class="container"></div>
+</section>
+
+<!-- ABOUT WRAPPER -->
+<div class="about-wrapper">
+
+    <!-- ========================= -->
+    <!-- ABOUT SECTIONS ACCORDION -->
+    <!-- ========================= -->
+
+    <div class="accordion">
+
+        <!-- ABOUT COMPANY -->
+        <div class="accordion-item">
+            <button class="accordion-header">
+                <span class="left">
+                    <div class="icon-box">🏢</div>
+                    About Link Financial Services
+                </span>
+                <span class="chev">▼</span>
+            </button>
+
+            <div class="accordion-content hidden">
+                <p>
+                    Link Financial Services (SL) Limited is a licensed and regulated financial institution
+                    in Sierra Leone, committed to fostering financial inclusion by creating a robust digital
+                    financial ecosystem. Established in 2016, we operate through a network of designated agents,
+                    focusing on underserved communities and small businesses. We provide tailored microfinance
+                    solutions and digital money transfer services.
+                </p>
+            </div>
+        </div>
+
+        <!-- MISSION -->
+        <div class="accordion-item">
+            <button class="accordion-header">
+                <span class="left">
+                    <div class="icon-box">🎯</div>
+                    Our Mission
+                </span>
+                <span class="chev">▼</span>
+            </button>
+
+            <div class="accordion-content hidden">
+                <p>Our Vision: To create a Digital Financial Ecosystem for financial inclusion in Sierra Leone.</p>
+            </div>
+        </div>
+
+        <!-- VISION -->
+        <div class="accordion-item">
+            <button class="accordion-header">
+                <span class="left">
+                    <div class="icon-box">👁️</div>
+                    Our Vision
+                </span>
+                <span class="chev">▼</span>
+            </button>
+
+            <div class="accordion-content hidden">
+                <p>Provide Easy Access to Finance for all.</p>
+            </div>
+        </div>
+
+        <!-- VALUES -->
+        <div class="accordion-item">
+            <button class="accordion-header">
+                <span class="left">
+                    <div class="icon-box">💡</div>
+                    Our Core Values
+                </span>
+                <span class="chev">▼</span>
+            </button>
+
+            <div class="accordion-content hidden">
+                <ul class="values-list modern">
+                    <li>Integrity</li>
+                    <li>Transparency</li>
+                    <li>Accountability</li>
+                    <li>Quality Service Delivery</li>
+                    <li>Customer Satisfaction</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- COMPANY BACKGROUND -->
+        <div class="accordion-item">
+            <button class="accordion-header">
+                <span class="left">
+                    <div class="icon-box">📘</div>
+                    Our Story / Company Background
+                </span>
+                <span class="chev">▼</span>
+            </button>
+
+            <div class="accordion-content hidden">
+                <p>
+                    Established in 2016, Link Financial Services (SL) Limited has grown into a trusted provider of
+                    microfinance and digital money services. Our network of agents supports individuals and SMEs
+                    in rural communities, offering essential financial solutions.
+                </p>
+            </div>
+        </div>
+
+        <!-- TERMS: Entire Agreement -->
+        <div class="accordion-item">
+            <button class="accordion-header">
+                <span class="left">
+                    <div class="icon-box">📄</div>
+                    Entire Agreement
+                </span>
+                <span class="chev">▼</span>
+            </button>
+
+            <div class="accordion-content hidden">
+                <p>
+                    These Terms and Conditions constitute the entire agreement between you and Link Financial Services (SL) Limited regarding your use of the Services and supersede all prior or contemporaneous communications and proposals.
+                </p>
+            </div>
+        </div>
+
+        <!-- TERMS: Severability -->
+        <div class="accordion-item">
+            <button class="accordion-header">
+                <span class="left">
+                    <div class="icon-box">⚖️</div>
+                    Severability
+                </span>
+                <span class="chev">▼</span>
+            </button>
+
+            <div class="accordion-content hidden">
+                <p>
+                    If any provision of these Terms is found to be invalid or unenforceable, that provision will be removed, and the remaining provisions will remain in full force and effect.
+                </p>
+                <p>By using our Services, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.</p>
+            </div>
+        </div>
+
+        <!-- PRIVACY POLICY -->
+        <div class="accordion-item">
+            <button class="accordion-header">
+                <span class="left">
+                    <div class="icon-box">🔐</div>
+                    Privacy Policy (Full Details)
+                </span>
+                <span class="chev">▼</span>
+            </button>
+
+            <div class="accordion-content hidden">
+                <p><strong>Last Updated: January 2025</strong></p>
+                <p>
+                    Link Financial Services (SL) Limited is committed to protecting your privacy. This policy explains how we collect, use, store, and safeguard the personal information of our clients and users.
+                </p>
+
+                <h4>Information We Collect</h4>
+                <ul>
+                    <li>Identification information</li>
+                    <li>Contact details</li>
+                    <li>Financial and business information</li>
+                    <li>Website usage data</li>
+                </ul>
+
+                <h4>How We Use Your Information</h4>
+                <p>We use personal information to provide services, verify identity, process transactions, manage accounts, improve systems, comply with laws, and more.</p>
+
+                <h4>Legal Basis</h4>
+                <p>We process data based on consent, contract, legal obligation, legitimate interest, or public interest.</p>
+
+                <h4>Your Rights</h4>
+                <ul>
+                    <li>Right to access</li>
+                    <li>Right to rectification</li>
+                    <li>Right to erasure</li>
+                    <li>Right to object</li>
+                    <li>Right to data portability</li>
+                </ul>
+
+                <p>By using our services, you agree to this Privacy Policy.</p>
+            </div>
+        </div>
+
+    </div> <!-- END ACCORDION -->
+
+</div> <!-- END ABOUT WRAPPER -->
+
+
+
+<script>
+    // JavaScript for accordion interaction
+    const accordionHeaders = document.querySelectorAll('.accordion-header');
+    accordionHeaders.forEach(header => {
+        header.addEventListener('click', () => {
+            const content = header.nextElementSibling;
+
+            // Toggle classes for showing/hiding content
+            content.classList.toggle('hidden');
+            // Optionally adjust accordion header to indicate open/close
+            content.style.maxHeight = content.classList.contains('hidden') ? '0' : `${content.scrollHeight}px`;
+        });
+    });
+</script>
+
+</body>
+</html>
